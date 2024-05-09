@@ -24,4 +24,22 @@ async def repeat(ctx, times: int, *content):
     for i in range(times):
         await ctx.send(content)
 
+@bot.command()
+async def joined(ctx, member: discord.Member):
+    """Says when a member joined."""
+    await ctx.send(f'{member.name} joined {discord.utils.format_dt(member.joined_at)}')
+
+@bot.command()
+async def add(ctx, left: int, right: int):
+    """Adds two numbers together."""
+    await ctx.send(left + right)
+
+
 bot.run("MTIzMzA4MTY3ODA5Njc2NTAzOQ.GG_ham.WEzuqbV0bNa_PFsShq5YgWAyrs5qbUO5oSvw-w")
+
+
+
+
+
+
+
