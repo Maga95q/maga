@@ -38,7 +38,7 @@ async def add(ctx, left: int, right: int):
     await ctx.send(left + right)
 
 
-bot.run("MTIzMzA4MTY3ODA5Njc2NTAzOQ.GG_ham.WEzuqbV0bNa_PFsShq5YgWAyrs5qbUO5oSvw-w")
+bot.run("MTIzMzA4MTY3ODA5Njc2NTAzOQ.GWzX3k.y7iqEBEcP0rcPxxaWmayxbx-41VA2itM-TWr9U")
 
 
 
